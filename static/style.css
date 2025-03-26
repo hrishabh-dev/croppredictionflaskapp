@@ -1,0 +1,60 @@
+body {
+    background-image: url(pexels-pixabay-265216.jpg);
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-position: center; /* Center the image */
+    height: 400px; /* Set a specific height for the container */
+    width: 400; /* Set width as per your need, this is just an example */
+    overflow: hidden;
+    display: flex; /* Enable flexbox on body */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; 
+    margin-top: 10%;
+
+}
+
+
+.login {
+    text-align: center; /* Center text inside the login div */ /* Semi-transparent white */
+    backdrop-filter: blur(100%);
+    background-color: rgba(141, 201, 13, 0.2);
+    padding: 20px; /* Optional: add some padding */
+    justify-content: space-between; 
+    border-radius: 10px; /* Optional: round the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add some shadow */
+    width: 300px; /* Set a fixed width for the login box */
+}
+
+.login input {
+/* Make each input a block element */
+    width: 40%; /* Set the input fields to take the full width of their parent */
+    margin: 10px 0;
+    margin-left: 10px; /* Center the input and add margin for spacing */
+    padding: 10px; /* Add padding for better appearance */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 5px; /* Rounded corners */
+}
+.btn {
+    background-color: rgb(160, 115, 115); /* Change button color to red */
+    color: white; /* Text color */
+    font-size: 20px; /* Adjust font size */
+    padding: 10px 20px; /* Add some padding */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Round the corners */
+    margin-left: 82px;/* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for color change */
+    margin-top: 20px; /* Add top margin for spacing */
+    width: 50%; /* Make the button full width to align with inputs */
+    display: block; /* Ensures that the button takes a new line */
+}
+.output-box {
+    background-color: #e3f2fd; /* Light blue background */
+    color: #2196f3; /* Blue text color */
+    padding: 15px; /* Padding around the text */
+    border: 1px solid #2196f3; /* Blue border */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 20px; /* Space above the output box */
+    font-weight: bold; /* Bold text */
+    display: inline-block; /* Only take up as much space as necessary */
+    max-width: 100%; /* Responsive width */
+    word-wrap: break-word; /* Break long words to prevent overflow */
+}
