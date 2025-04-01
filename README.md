@@ -102,12 +102,9 @@ This project is licensed under the [MIT License](LICENSE).
 
 - [Machine Learning Libraries](https://scikit-learn.org/) for providing powerful tools for predictions.
 - [Flask](https://flask.palletsprojects.com/) for creating the web application.
+- 
 ##Contact
+
 For questions or feedback, please reach out to [hrishabh068@gmail.com].
 
-## Contact
 
-For questions or feedback, please reach out to [your_email@example.com].
-```
-
-You can copy the entire block above and customize it according to your project details!
