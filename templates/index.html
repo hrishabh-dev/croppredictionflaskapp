@@ -10,13 +10,13 @@
     <div class="login">
         <h1>CROP PREDICTION MODEL</h1>
         <form action="{{url_for('predict')}}" method="post">
-            <input type="text" name="Nitrogen" placeholder="Nitrogen" required="required" />
-        <input type="text" name="Phosphorus" placeholder="Phosphorus" required="required" />
-		<input type="text" name="Potassium" placeholder="Potassium" required="required" />
+            <input type="text" name="Nitrogen" placeholder="Nitrogen (mg/L)" required="required" />
+        <input type="text" name="Phosphorus" placeholder="Phosphorus (mg/L)" required="required" />
+		<input type="text" name="Potassium" placeholder="Potassium (mg/L)" required="required" />
         <input type="text" name="temperature" placeholder="temperature" required="required" />
-        <input type="text" name="humidity" placeholder="humidity" required="required" />
+        <input type="text" name="humidity" placeholder="humidity (%)" required="required" />
 		<input type="text" name="pH" placeholder="pH" required="required" />
-        <input type="text" name="rainfall" placeholder="rainfall" required="required" />
+        <input type="text" name="rainfall" placeholder="rainfall (mm)" required="required" />
 
             <button type="submit" class="btn">Submit</button>
 
