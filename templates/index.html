@@ -21,9 +21,13 @@
             <button type="submit" class="btn">Submit</button>
 
         </form>
-        <div class="output-box">
+	    {% if prediction_text %}
+	    <div class="output-box">
             {{ prediction_text }}
         </div>
+        
+        {% endif %}
+        
 
     
     </div>
