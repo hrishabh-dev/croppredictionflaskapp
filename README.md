@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Crop Prediction App is designed to assist farmers and agricultural enthusiasts in predicting the best crops to plant based on environmental factors such as phosphorus levels, nitrogen levels, humidity, temperature, and rainfall. Using advanced algorithms, the app analyzes input data and provides crop recommendations to optimize yield and sustainability.
+The Crop Prediction App is designed to assist farmers and agricultural enthusiasts in predicting the best crops to plant based on environmental factors such as phosphorus levels, nitrogen levels, humidity, temperature, and rainfall.
 
 ## Features
 
@@ -10,11 +10,21 @@ The Crop Prediction App is designed to assist farmers and agricultural enthusias
 - Predicts suitable crops based on the provided conditions.
 - User-friendly interface to easily input data and view predictions.
 - Built with robust algorithms to ensure accurate predictions.
+- **Model accuracy:** The Naive Bayes classifier used in this app achieves an accuracy of **[98]%** on the test dataset.
+
+## Why Naive Bayes Classifier?
+
+We use the Naive Bayes classification algorithm for crop prediction because:
+
+- **Simplicity and Speed:** Naive Bayes is easy to implement and computationally efficient, making it suitable for real-time predictions.
+- **Effectiveness with Small Datasets:** It performs well even with relatively small datasets and is less prone to overfitting.
+- **Handles Categorical and Continuous Data:** The algorithm is effective when dealing with both categorical and continuous input features.
+- **Probabilistic Approach:** It provides the probability of each crop being suitable, allowing for more informed decision-making.
 
 ## Technologies Used
 
 - Python 
-- Machine Learning libraries(  Scikit-learn)
+- Machine Learning libraries (Scikit-learn)
 - Flask 
 - Pandas / NumPy (for data manipulation)
 
@@ -102,9 +112,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 - [Machine Learning Libraries](https://scikit-learn.org/) for providing powerful tools for predictions.
 - [Flask](https://flask.palletsprojects.com/) for creating the web application.
-- 
-##Contact
+
+## Contact
 
 For questions or feedback, please reach out to [hrishabh068@gmail.com].
-
-
