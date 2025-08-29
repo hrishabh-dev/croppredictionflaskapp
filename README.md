@@ -10,15 +10,15 @@ The Crop Prediction App is designed to assist farmers and agricultural enthusias
 - Predicts suitable crops based on the provided conditions.
 - User-friendly interface to easily input data and view predictions.
 - Built with robust algorithms to ensure accurate predictions.
-- **Model accuracy:** The Naive Bayes classifier used in this app achieves an accuracy of **[98]%** on the test dataset.
+- **Model accuracy:** The Gaussian Naive Bayes classifier used in this app achieves an accuracy of **[98]%** on the test dataset.
 
-## Why Naive Bayes Classifier?
+## Why Gaussian Naive Bayes Classifier?
 
-We use the Naive Bayes classification algorithm for crop prediction because:
+We use the Gaussian Naive Bayes classification algorithm for crop prediction because:
 
-- **Simplicity and Speed:** Naive Bayes is easy to implement and computationally efficient, making it suitable for real-time predictions.
+- **Simplicity and Speed:** Gaussian Naive Bayes is easy to implement and computationally efficient, making it suitable for real-time predictions.
 - **Effectiveness with Small Datasets:** It performs well even with relatively small datasets and is less prone to overfitting.
-- **Handles Categorical and Continuous Data:** The algorithm is effective when dealing with both categorical and continuous input features.
+- **Handles Continuous Data Well:** Gaussian Naive Bayes assumes that features follow a normal (Gaussian) distribution, making it particularly effective for continuous input features such as those in this app.
 - **Probabilistic Approach:** It provides the probability of each crop being suitable, allowing for more informed decision-making.
 
 ## Technologies Used
